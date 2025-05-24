@@ -41,7 +41,7 @@ claim_reward_address: "$CLAIM_REWARD_ADDRESS"
 server:
   # don't modify this
   # cysic_endpoint: "https://api-pre.prover.xyz"
-  cysic_endpoint: "https://api-testnet.prover.xyz"
+  cysic_endpoint: "https://ws-pre.prover.xyz"
 EOF
 
 # 第三段命令：设置执行权限并启动verifier
