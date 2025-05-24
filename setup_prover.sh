@@ -17,7 +17,7 @@ curl -L https://github.com/cysic-labs/cysic-phase3/releases/download/v1.0.0/prov
 curl -L https://github.com/cysic-labs/cysic-phase3/releases/download/v1.0.0/libdarwin_prover.so >~/cysic-prover/libzkp.so
 curl -L https://github.com/cysic-labs/cysic-phase3/releases/download/v1.0.0/libcysnet_monitor.so >~/cysic-prover/libcysnet_monitor.so
 curl -L https://github.com/cysic-labs/cysic-phase3/releases/download/v1.0.0/librsp.so >~/cysic-prover/librsp.so
-curl -L https://github.com/cysic-labs/cysic-phase3/releases/download/v1.0.0/librsp.so >~/cysic-prover/eth_
+curl -L https://github.com/cysic-labs/cysic-phase3/releases/download/v1.0.0/eth_dependency.sh >~/cysic-prover/eth_dependency.sh
 
 # 第二段命令：创建配置文件
 cat <<EOF >~/cysic-prover/config.yaml
